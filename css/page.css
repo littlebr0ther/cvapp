@@ -1,17 +1,22 @@
 @charset "UTF-8";
 /* CSS Document */
 
-/*header*/
 body {
-    width: 500px;
+    width: 280px;
     height: 500px;
 }
+.back {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+/*header*/
+
 .header {
-    height: 6%;
+    height: 10%;
     background-color: blue;
 }
 .header-case {
-    padding-top: 4%;
     text-align: center;
     width: 33.33%;
     height: 100%;
@@ -35,15 +40,36 @@ body {
 		}
 
 /*body*/
+.space {
+    width: 100%;
+    height: 10%;
+    float: left;
+}
+
+.marge {
+    margin-right: 5%;
+}
+.button {
+    width: 100%;
+    height: 100%;
+    float: left;
+}
 .body {
     text-align: center;
     width: 100%;
     height: 70%;
     background-color: lightcoral;
+    float: left;
 }
 .ligne-body li {
     display: inline-block;
     margin-top: 30%;
+}
+.block {
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: blue;
 }
 
 /* contact*/
@@ -52,6 +78,7 @@ body {
     width: 100%;
     height: 10%;
     background-color: aquamarine;
+    float: left;
 }
 
 
