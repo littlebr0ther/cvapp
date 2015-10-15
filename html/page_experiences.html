@@ -1,24 +1,28 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<link href="/css/page.css" rel="stylesheet" type="text/css">
+    <meta charset="utf-8" />
+    <!--<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">-->
+	<link rel="stylesheet" type="text/css" href="page.css" />
     <title> CV </title>
     </head>
+    
     <!--header-->
     <body> 
     <div class="header">
         <div class="header-case">
-            <a> header </a>
+            <a href="index.html" style="display:block" class="contact-link"> header </a>
         </div>
         <div class="header-case">
-            <a> header </a>
+            <a href="index.html" style="display:block" class="contact-link"> header </a>
         </div>
         <div class="header-case">
-            <a> header </a>
+            <a href="index.html" style="display:block" class="contact-link"> header </a>
         </div>
     </div>
+        
     <!-- nav bar -->
+        
      <div class="navbar">
          <ul class="ligne">
              <div class="navbar-case">
@@ -31,88 +35,47 @@
                  <li> <a href="page_formations.html"> formations </a></li>
              </div >
              <div class="navbar-case">
-                 <li> <a href="/html/page_activites.html"> activités</a></li>
+                 <li> <a href="page_activites.html"> activités</a></li>
              </div>
          </ul>
     </div>
+        
     <!-- body -->
+        
     <div class="body">
-        <ul class="ligne-body">
-             <div class="navbar-case">
-                 <li> <a href="page_competences.html">*</a></li>
-             </div>
-             <div class="navbar-case">
-                 <li> <a href="page_experiences.html"> * </a></li>
-             </div>
-             <div class="navbar-case">
-                 <li> <a href="page_formations.html"> * </a></li>
-             </div >
-             <div class="navbar-case">
-                 <li> <a href="page_active.html"> *</a></li>
-             </div>
-         </ul>
-        <ul class="ligne-body">
-             <div class="navbar-case">
-                 <li> <a href="page_competences.html">*</a></li>
-             </div>
-             <div class="navbar-case">
-                 <li> <a href="page_experiences.html"> * </a></li>
-             </div>
-             <div class="navbar-case">
-                 <li> <a href="page_formations.html"> * </a></li>
-             </div >
-             <div class="navbar-case">
-                 <li> <a href="page_active.html"> *</a></li>
-             </div>
-         </ul>
-        <ul class="ligne-body">
-             <div class="navbar-case">
-                 <li> <a href="page_competences.html">*</a></li>
-             </div>
-             <div class="navbar-case">
-                 <li> <a href="page_experiences.html"> * </a></li>
-             </div>
-             <div class="navbar-case">
-                 <li> <a href="page_formations.html"> * </a></li>
-             </div >
-             <div class="navbar-case">
-                 <li> <a href="page_active.html"> *</a></li>
-             </div>
-         </ul>
-        <ul class="ligne-body">
-             <div class="navbar-case">
-                 <li> <a href="page_competences.html">*</a></li>
-             </div>
-             <div class="navbar-case">
-                 <li> <a href="page_experiences.html"> * </a></li>
-             </div>
-             <div class="navbar-case">
-                 <li> <a href="page_formations.html"> * </a></li>
-             </div >
-             <div class="navbar-case">
-                 <li> <a href="page_active.html"> *</a></li>
-             </div>
-         </ul>
-        <ul class="ligne-body">
-             <div class="navbar-case">
-                 <li> <a href="page_competences.html">*</a></li>
-             </div>
-             <div class="navbar-case">
-                 <li> <a href="page_experiences.html"> * </a></li>
-             </div>
-             <div class="navbar-case">
-                 <li> <a href="page_formations.html"> * </a></li>
-             </div >
-             <div class="navbar-case">
-                 <li> <a href="page_active.html"> *</a></li>
-             </div>
-         </ul>
-    </div>
+            
+            <div id="welcomeDiv" class="block"> 
+                WELCOME
+            </div>
+            <div id="hiDiv" class="block"> 
+                hi
+            </div>
+            <div id="helloDiv" class="block"> 
+                hello
+            </div>
+        
+            <div class="button" id="button">
+                <div class="space"></div>
+                <button class="marge" onclick="showDiv('welcomeDiv')">                                     welcom
+                </button>
+                <button class="marge" onclick="showDiv('hiDiv')">                                           hi
+                </button>
+                <button class="marge" onclick="showDiv('helloDiv')">                                       hello
+                </button>
+                </div>            
+     </div>
+        
+        <script>
+            function showDiv(x) {
+                document.getElementById(x).style.display = "block";
+                document.getElementById('button').style.display = "none";
+            }
+        </script>
+        
     <!-- contact -->
+        
     <div class="contact">
-        <div>
-             <li> <a href="formulaire.html"> conttact </a></li>
-        </div>
+        <a href="formulaire.html" style="display:block" class="contact-link">  </a>
     </div>
     </body>
 </html>
