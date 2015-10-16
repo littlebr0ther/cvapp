@@ -140,6 +140,12 @@ body {
     margin-top: 1%;
 }
 
+.contact-link-medium {
+    height: 100%;
+    width: 100%;
+    margin-top: 3%;
+}
+
 /*.contact-link:hover {
     background-color: lightgreen;
 }*/
