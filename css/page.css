@@ -150,13 +150,13 @@ body {
     background-color: #43708e;
 }
 .message-boxe {
-    height: 50%;
+    height: 80%;
     width: 80%;
 }
 
 .formulaire {
     width: 100%;
-    height: 100%;
+    height: 60%;
     background-color: #43708e;
     float: left;
 }
