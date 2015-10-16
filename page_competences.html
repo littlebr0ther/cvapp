@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+    <meta charset="utf-8" />
+    <!--<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">-->
+	<link rel="stylesheet" type="text/css" href="css/page.css" />
+    <title> CV </title>
+    </head>
+    
+   <!--header-->
+    <body> 
+    <div class="header">
+        <div class="header-case">
+            <a href="index.html" style="display:block" class="contact-link">
+               nom 
+             <p> ville </p>
+            </a>
+        </div>
+        <div class="header-case">
+            <a href="index.html" style="display:block"> 
+                <img src="images/rowan_atkinson_face.png" width="50%">
+            </a>
+        </div>
+        <div class="header-case">
+            <a href="index.html" style="display:block" class="contact-link"> 
+                job
+            </a>
+        </div>
+    </div>
+        
+    <!-- nav bar -->
+        
+     <div class="navbar">
+             <div class="navbar-case">
+                 <a href="page_competences.html">
+                     <img src="images/competence_icon.png" width="60%">
+                     </a>
+             </div>
+             <div class="navbar-case">
+                 <a href="page_experiences.html"> 
+                     <img src="images/experience_icon.png" width="60%">
+                     </a>
+             </div>
+             <div class="navbar-case">
+                  <a href="page_formations.html"> 
+                     <img src="images/formation_icon.png" width="60%">
+                     </a>
+             </div >
+             <div class="navbar-case">
+                 <a href="page_activites.html"> 
+                     <img src="images/hobby_icon.png" width="60%">
+                     </a>
+             </div>
+    </div>
+        
+    <!-- body -->
+        
+    <div class="body">
+            
+            <div id="welcomeDiv" class="block"> 
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </div>
+            <div id="hiDiv" class="block"> 
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </div>
+            <div id="helloDiv" class="block"> 
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </div>
+        
+            <div class="button" id="button">
+                <div class="space"></div>
+                <button class="marge" onclick="showDiv('welcomeDiv')">                                     Travail en équipe
+                </button>
+                <button class="marge" onclick="showDiv('hiDiv')">                                           Créativité
+                </button>
+                <button class="marge" onclick="showDiv('helloDiv')">                                       Investissement 
+                </button>
+                </div>            
+     </div>
+        
+        <script>
+            function showDiv(x) {
+                document.getElementById(x).style.display = "block";
+                document.getElementById('button').style.display = "none";
+            }
+        </script>
+        
+    <!-- contact -->
+        
+    <div class="contact">
+        <a href="formulaire.html" style="display:block" class="contact-link-little"> 
+            <img src="images/competence_icon.png" width="15%">
+        </a>
+    </div>
+    </body>
+</html>
